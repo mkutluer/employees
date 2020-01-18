@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "dept_manager", indexes = {@Index(name = "dept_no", columnList = "dept_no")})
+@Table(name = "dept_manager", indexes = {@Index(name = "emp_no", columnList = "emp_no")})
 public class DepartmentManager {
 
     @EmbeddedId
